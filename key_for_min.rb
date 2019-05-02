@@ -6,7 +6,7 @@ name_hash =     {:blake => 500, :ashley => 2, :adam => 1}
 def key_for_min_value(name_hash)
 
 
-names.each do |name, value|
+name.each do |name, value|
   if value < 2
     return name
   else
